@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_shankaranandh_gosample_1701899036460-pr-trigger-input-set
+  identifier: Build_shankaranandh_gosample_1701899036460prtriggerinputset
+  orgIdentifier: cvng
+  projectIdentifier: srmsockshop
+  pipeline:
+    identifier: Build_shankaranandh_gosample_1701899036460
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
